@@ -1,1 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.cabeçalho{
+    background-color: rgba(0, 70, 109, 1);
+    font-style: bold;
+    color: white;
+    padding:10px 100px;
+    display: flex;
+    /*justify-content: flex-start;*/
+    align-items: center;
+}
+
+.naveg{
+    padding-left: 860px;
+    padding-right: 40px;
+}
+
+.naveg-item{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 24px;
+}
+
+.imagem-logo{
+    width: 14%;
+}
