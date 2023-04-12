@@ -9,7 +9,7 @@
     color: white;
     padding:0px 100px;
     display: flex;
-    /*justify-content: flex-start;*/
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -20,21 +20,21 @@
 
 .naveg-item{
     display: inline-block;
-    margin: 0 100px;
     font-size: 24px;
+    margin: 0 30px;
 }
 
 .imagem-logo{
-    width: 19%;
-    padding-right: 60px;
+    width: 10%;
+    padding-right: 860px;
 }
 
 .apresentando{
-    background: linear-gradient(rgba(0, 70, 109, 1),black);
+    background: linear-gradient(rgb(15, 102, 148),black);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 50px 24px 200px 0;
     color: rgb(255, 255, 255);
 }
 
@@ -46,27 +46,94 @@
 }
 
 .irriga {
-    width: 35%;
+    width: 45%;
     padding-left: 100px;
 }
 
 .apresenta {
     width: 35%;
+    text-align: center;
 }
 
 .t-pri {
-    text-align: center;
     padding-bottom: 25px;
     font-size: 30px;
 }
 
 .t-sec {
-    text-align: center;
     padding-bottom: 25px;
 }
 
 .lista1 {
-    text-align: center;
+    padding-top: 25px;
     padding-bottom: 25px;
     list-style: inside;
+}
+
+
+.rob-parana  {
+    background:black; 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 0 200px 0;
+}
+
+.par-rob-par {
+    font-size: 35px;
+    padding: 0px 0 35px 0;
+}
+
+.par-rob-par-2 {
+    font-size: 25px;
+    padding: 0px 0 15px 0;
+} 
+
+.div-img {
+    padding: 35px 0 35px 0;
+    display:flex;
+    justify-content: center;
+    background:black; 
+}
+
+.rob-imagens {
+    align-items: center;
+    width: 70%;
+}
+
+.links-parana {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background:black; 
+        color: white;
+        font-weight: bold;
+}
+    
+.rob-imagens-2 {
+    width: 63%;
+    align-content:center;
+    padding: 200px 0px 200px 100px;
+}
+
+.rob-imagens-3 {
+    width: 70%;
+    align-content:center;
+    padding: 200px 0px 200px 0px;
+}
+
+.links-parana-texto {
+    background:black; 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 200px 0 50px 0;
+}
+
+footer {
+    background:linear-gradient(black,rgba(0, 70, 109, 1)); 
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px 0 50px 0;
 }
