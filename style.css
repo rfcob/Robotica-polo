@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-.cabeçalho{
+/* -------------------Cabeçalho--------------------- */
+/*-----------------todas as páginas----------------- */ 
+
+.cabeçalho {
     background-color: rgba(0, 70, 109, 1);
     font-style: bold;
     color: white;
@@ -13,21 +16,24 @@
     align-items: center;
 }
 
+.imagem-logo{
+    width: 10%;
+    padding-right: 860px;
+}
+
 .naveg{
     padding-left: 100px;
     padding-right: 0px;
 }
 
 .naveg-item{
+    color: white;
     display: inline-block;
     font-size: 24px;
     margin: 0 30px;
 }
 
-.imagem-logo{
-    width: 10%;
-    padding-right: 860px;
-}
+/* -------------------Apresentação--------------------- */
 
 .apresentando{
     background: linear-gradient(rgb(15, 102, 148),black);
@@ -43,11 +49,6 @@
     font-size: 20px;
     margin: 0px 0px 0px 0px;
     padding: 100px 0px 100px 0px;
-}
-
-.irriga {
-    width: 45%;
-    padding-left: 100px;
 }
 
 .apresenta {
@@ -70,8 +71,14 @@
     list-style: inside;
 }
 
+.imagem-apresenta{
+    width: 45%;
+    padding-left: 100px;
+}
 
-.rob-parana  {
+/* -------------------Seção Robotica Parana--------------------- */
+
+.rob-educa  {
     background:black; 
     color: white;
     text-align: center;
@@ -122,6 +129,8 @@
     padding: 200px 0px 200px 0px;
 }
 
+/* -------------------Secção Links SEED--------------------- */
+
 .links-parana-texto {
     background:black; 
     color: white;
@@ -130,6 +139,10 @@
     padding: 200px 0 50px 0;
 }
 
+
+
+/* -------------------Rodapé --------------------- */
+
 footer {
     background:linear-gradient(black,rgba(0, 70, 109, 1)); 
     color: white;
@@ -137,3 +150,35 @@ footer {
     text-align: center;
     padding: 50px 0 50px 0;
 }
+
+
+
+/* -----------Folha de estilos - Página Projetos------ */
+
+
+.title{
+    background-image: linear-gradient(rgba(0, 70, 109, 1),black);
+    font-style: bold;
+    color: white;
+    padding:50px 0px 50px 0px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+
+.body-project {
+    background-color: black;
+}
+
+.p-text {
+    font-size: 25px;
+    color: white;
+    padding: 0px 0 15px 0;
+    padding:400px 0px 400px 0px;  
+} 
